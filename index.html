@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Course Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Online Course Management System</h1>
+    <nav>
+      <a href="login.html">Login</a>
+      <a href="courses.html">Courses</a>
+      <a href="contactus.html">Contact</a>
+    </nav>
+  </header>
+  
+  <div class="carousel-container">
+    <div class="carousel">
+      <div class="carousel-slide active">
+        <img src="https://media.licdn.com/dms/image/D5612AQGyzoUZH_eiUw/article-cover_image-shrink_720_1280/0/1683838978171?e=2147483647&v=beta&t=mNPAFemOtUzUKJHkcXOXscOC0jJlWi_IbZIthWzyxa8" alt="Slide 1">
+      </div>
+      <div class="carousel-slide">
+        <img src="https://www.pngitem.com/pimgs/m/127-1272135_web-design-web-development-icon-hd-png-download.png" alt="Slide 2">
+      </div>
+      <div class="carousel-slide">
+        <img src="https://www.sipexe.com/assets/courses/Adavaced_JavaScript.png" alt="Slide 3">
+      </div>
+      <div class="carousel-slide">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVecOF4R5U6DFcx-NfxNod0gXYNRuvrLKFzw&s" alt="Slide 4">
+      </div>
+      <div class="carousel-slide">
+        <img src="https://t4.ftcdn.net/jpg/03/98/03/81/360_F_398038155_jDcUStLpqmK73AnSIL7V2g7aF3pM1doa.jpg" alt="Slide 5">
+      </div>
+    </div>
+    <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+  </div>
+
+  <div class="container">
+    <h1>About Us</h1>
+    <p>
+        Welcome to our platform, where we believe in empowering individuals with essential computer skills for a better future. Our mission is to provide accessible and high-quality courses that cater to learners of all levels, from beginners to advanced users.
+    </p>
+    <h2>Our Mission</h2>
+    <p>Our mission is to make computer education accessible to everyone, enabling individuals to enhance their skills and unlock new opportunities. We strive to create a community of lifelong learners who are equipped with the tools necessary to thrive in a digital world.</p>
+    <h2>Our Vision</h2>
+    <p>We envision a world where everyone has the knowledge and skills to navigate technology confidently. Through our courses, we aim to inspire creativity, foster innovation, and contribute to personal and professional growth.</p>
+
+    <div class="container">
+        <h1>Meet Our Team</h1>
+        <div class="card-container">
+            <div class="profile-card">
+                <img src="./436347203_386329837569347_616776859032749378_n.jpg" alt="Profile 1" class="profile-img">
+                <div class="card-content">
+                    <h2>Muhammad Tufail Khan</h2>
+                    <p>BSCS|UBIT|KU</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="./IMG_20241002_155521_641.jpg" alt="Profile 2" class="profile-img">
+                <div class="card-content">
+                    <h2>Mahad Raza Khan</h2>
+                    <p>BSCS|UBIT|KU</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="./Screenshot_2024_10_25-1.png" alt="Profile 3" class="profile-img">
+                <div class="card-content">
+                    <h2>Muhammad Tashfeen</h2>
+                    <p>BSCS|UBIT|KU</p>
+                </div>    
+            </div>
+            <div class="profile-card">
+                <img id="img04" src="./WhatsApp Image 2024-10-30 at 9.01.08 AM.jpeg" alt="Profile 4" class="profile-img">
+                <div class="card-content">
+                    <h2>Mujtaba Khan Suri</h2>
+                    <p>BSCS|UBIT|KU</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
