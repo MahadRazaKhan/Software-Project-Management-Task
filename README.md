@@ -15,4 +15,4 @@ The **Online Course Management System (OCMS)** is a platform designed to manage 
 - **Course Enrollment System Completed**: Students can sign up and enroll in courses seamlessly.
 - **Final Testing and Deployment**: All features have been tested and the system is ready for deployment.
 
-![Coding gif](![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
+![Coding gif](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
