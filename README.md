@@ -4,6 +4,9 @@
 
 The **Online Course Management System (OCMS)** is a platform designed to manage online courses efficiently. It has course enrollment and offers an intuitive interface for students. This project aims to simplify the process of managing online courses, making it easier for students to interact and stay organized.
 
+![Online Course Management System Web Screenshot](Screenshot_2024_11_29-3)
+
+
 ## Features
 
 - **Course Enrollment**: Students can browse and enroll in available courses.
